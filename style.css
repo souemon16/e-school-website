@@ -1,0 +1,352 @@
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin-bottom: 100px;
+}
+#bg-color{
+    height: 110vh;
+    background-color:rgba(234, 248, 234, 0.678);
+    margin-bottom: 100px;
+}
+.para-highlight{
+    color: lightseagreen;
+    font-weight: 600;
+}
+/* NAVBAR SECTION  */
+#navbar{
+    background-color: transparent;
+}
+#navbar img{
+    width: 250px;
+    height: 80px;
+}
+.navbar-nav a{
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#btn-sign-in{
+    background-color:rgb(84, 206, 137);
+    border-radius: 40px;
+    color: white;
+    width: 120px;
+    margin-left: 20px;
+}
+#btn-sign-in:hover{
+    background-color:rgb(95, 228, 153);
+    color: rgb(32, 32, 32);
+}
+
+/* NAVBAR SECTION ENDS  */
+
+/* HOME SECTION STARTS  */
+#home{
+background-color: transparent;
+}
+.home-img{
+    width: 100%;
+}
+.top-title{
+    color: rgb(196, 41, 41);
+    font-family: 'Bangers', cursive
+}
+.middle-title{
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+.home-title{
+    color: rgb(59, 172, 108);
+    font-weight:bolder ;
+}
+.last-para{
+font-size: 20px;
+color: lightslategray;
+font-family: 'Raleway', sans-serif;
+}
+.para-title{
+    color:lightseagreen;
+}
+#home:hover .para-title{
+    text-decoration: underline;
+}
+.btn-get-started{
+    background-color:rgb(84, 206, 137);
+    border-radius: 40px;
+    color: white;
+    width: 170px;
+    height:50px ;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+}
+.btn-get-started:hover{
+    background-color:rgb(95, 228, 153);
+    width: 190px;
+    height:70px ;
+    font-size: 22px;
+    transition: 0.5s ease-in-out;
+}
+/* HOME SECTION ENDS  */
+
+/* CARDS SECTION STARTS  */
+.card-style{
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+.card-style:hover{
+    box-shadow: 5px 5px 30px rgb(114, 79, 230);
+    background-color: white;
+}
+.col-md-2{
+border: none;
+border-radius: 10px;
+text-align: center;
+
+}
+.col-md-2 img{
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+}
+.col-md-2 h5{
+    font-size: 26px;
+}
+.col-md-2 div{
+    padding: 30px 0px;
+}
+.col-md-2 p{
+    font-size: 20px;
+}
+.card-style:hover .card-text{
+    color: rgb(114, 79, 230);
+}
+/* CARDS SECTION ENDS  */
+
+/* COURSE SECTION STARTS  */
+.card-courses{
+    border: none;
+    box-shadow: 5px 5px 30px rgb(95, 228, 153);
+}
+.section-title h1{
+    color: rgb(59, 172, 108);
+    font-family: 'Bangers', cursive;
+}
+.section-title{
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Bangers', cursive;
+}
+.icon-img{
+    width: 20px;
+    height: 20px;
+}
+.course-length{
+    font-size: 16px;
+    color: gray;
+}
+.course-enroll{
+    background-color:rgb(84, 206, 137);
+    border-radius: 40px;
+    color: white;
+    width: 140px;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+}
+#btn-sign-in:hover{
+    background-color:rgb(95, 228, 153);
+    color: rgb(32, 32, 32);
+}
+
+.card-style:hover{
+    box-shadow: 5px 5px 30px rgb(114, 79, 230);
+    background-color: white;
+}
+.card-courses img{
+ padding:14px 8px;   
+ border-radius: 3px;
+
+}
+.card-footer img{
+    padding: 0;
+    border-radius: 0px;
+}
+/* COURSE SECTION ENDS  */
+
+/* TESTIMONIAL SECTION STARTS  */
+#testimonial-section{
+    margin-top: 100px;
+}
+.testimonial-img{
+    width: 150px;
+    height: 150px;
+    border: none;
+}
+.testimonial-message{
+font-size: 18px;
+font-weight: 600;
+line-height: 2rem;
+}
+/* TESTIMONIAL SECTION ENDS  */
+
+/* FOOTER SECTION STARTS  */
+footer{
+    border: 1px solid black;
+    color: white;
+    background-color: #23212b;
+    padding-top: 50px;
+}
+footer .container{
+    padding-top: 40px;
+}
+footer li{
+    list-style: none;
+    color: white;
+}
+footer p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#copyright{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* FOOTER SECTION ENDS  */
+
+
+
+/* RESPONSIVE SECTION  */
+
+@media only screen and (max-width: 768px) {
+   *{
+       font-size: 16px;
+       box-sizing: border-box;
+   }
+
+
+    /* HOME SECTION  */
+    #bg-color{
+        height: 120vh;
+    }
+    #home{
+        margin-top: 0px;
+    }
+    .top-title{
+        font-size: 19px;;
+    }
+    .middle-title{
+        font-size: 25px;
+    }
+    .home-title{
+        font-size: 25px;
+    }
+    .last-para{
+        font-size: 13px;
+    }
+    .para-title{
+        font-size: 13px;
+    }
+    .btn-get-started{
+        width: 100px;
+        height: 40px;
+        padding: 0;
+        font-size: 14px;
+    }
+
+        /* TESTIMONIAL SECTION  */
+    #testimonial-section{
+        margin-top: 50px;
+    }
+
+
+    /* CARD SECTION  */
+    #card-section{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .col-md-2{
+        text-align: center;
+    }
+    .card-style{
+        margin: 0 auto;
+        width: 20rem;
+        box-shadow:5px 5px 30px rgb(114, 79, 230);
+        margin-bottom: 60px;
+    }
+   
+
+    /* FOOTER SECTION  */
+    footer{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    /* HOME SECTION  */
+    #bg-color{
+        height: 120vh;
+    }
+    #home{
+        margin-top: 0px;
+    }
+    .top-title{
+        font-size: 19px;;
+    }
+    .middle-title{
+        font-size: 25px;
+    }
+    .home-title{
+        font-size: 25px;
+    }
+    .last-para{
+        font-size: 13px;
+        margin-top: -20px;
+    }
+    .para-title{
+        font-size: 13px;
+    }
+    .btn-get-started{
+        width: 100px;
+        height: 40px;
+        padding: 0;
+        font-size: 14px;
+        margin-top: -40px;
+    }
+    /* CARD SECTION  */
+    #card-section{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .col-md-2{
+        text-align: center;
+    }
+    .card-style{
+        margin: 0 auto;
+        width: 14rem;
+        box-shadow:5px 5px 30px rgb(114, 79, 230);
+        margin-bottom: 60px;
+    }
+
+    /* TESTIMONIAL SECTION  */
+    .testimonial-message{
+        font-size: 12px;
+    }
+    .para-highlight{
+        font-size: 12px;
+    }
+
+    /* FOOTER SECTION  */
+    #courses-name, #languages, #resources{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+   
+}
