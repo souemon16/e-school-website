@@ -90,6 +90,9 @@ font-family: 'Raleway', sans-serif;
 /* HOME SECTION ENDS  */
 
 /* CARDS SECTION STARTS  */
+#card-section{
+    margin-bottom: 100px;
+}
 .card-style{
     border: none;
     border-radius: 5px;
